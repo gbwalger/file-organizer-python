@@ -11,7 +11,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 
-df = carregar_planilha("planilha_cliente.xlsx")
+df = carregar_planilha("planilha_exemplo.xlsx")
 
 criar_pastas(df)
 
